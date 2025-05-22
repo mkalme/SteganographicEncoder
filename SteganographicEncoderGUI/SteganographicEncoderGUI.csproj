@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EncoderAddOn\EncoderAddOn.csproj" />
+    <ProjectReference Include="..\FileEncoderAddOn\FileEncoderAddOn.csproj" />
+    <ProjectReference Include="..\SteganographicEncoder\SteganographicEncoder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CustomDialogs">
+      <HintPath>D:\Libraries\.NET Core\CustomDialogs\v1.2.0\dlls\64BitRel\CustomDialogs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
